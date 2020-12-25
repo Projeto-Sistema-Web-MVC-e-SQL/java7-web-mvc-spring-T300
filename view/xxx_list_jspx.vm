@@ -29,7 +29,7 @@
 					<tr>
 ## KEY FIELDS
 ##foreach( $field in $keyFields )
-						<th th:each="field : ${keyFields}" th:text="${itemVariable} ${field}"/>
+						<th th:each="field : /${keyFields}" th:text="${itemVariable} ${field}"/>
 						</th>
 ##end
 ## DATA FIELDS
